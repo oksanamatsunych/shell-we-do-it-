@@ -1,304 +1,140 @@
-* {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>newslist</title>
+        <link rel="stylesheet" href="../general.css" /> 
+    </head>
 
-body{
-    background-color: #F7F7F7;
-    font-family: "FuturaPT" , sans-serif;
-}
+    <body>
+        <header class="header">
+            
+            <div class="header_logo">
+                <img rel="logo" src="../Shell_logo.png"/>
+            </div>
 
-@font-face {
-    font-family: "FuturaPT";
-    src: url("../FuturaPT-Bold.ttf") format("truetype");
-    font-weight: bold;
-}
+            <div class="header_menu">
+            <button class="header_button_registration">Реєстрація</button>
+            <button class="header_button_enter">ВХІД</button>
+            <button class="header_button_menu"> <img src="../menu.png" width="16">
+                <ul class="menu_links">
+                    <li> 
+                    <a class=links_list href="/news.html"> Новини</a>
+                    <a class=links_list href="/archieve.html"> Архів</a>
+                    <a class=links_list href="/contacts.html"> Контакти</a>
+                    </li>
+                </ul>
+            </div>
+    </header>
+        <main>
 
-@font-face {
-    font-family: "FuturaPT";
-    src: url("../FuturaPTCond-Book.ttf") format("truetype");
-    font-weight: normal;
-}
+        <div class="heading_section"> 
+        <img class="heading_photo" src="../headingimage.png">
+        <h1 class="heading_title">We Run the Future</h2>
+        <h2 class="heading_text">We are a global group of energy and petrochemical companies with more than 80,000 employees in more than 70 countries.</h2>
+        <p class="heading_date">date of posting</p>
+        </div>
 
-@font-face {
-    font-family: "FuturaPT";
-    src: url("../FuturaPT-Light.ttf") format("truetype");
-    font-weight: 200;
-    font-style: italic;
-}
+        <div class="preview_section">
+        <h3 class="preview_head">We are the best!</h3>
+        <p class="preview_text">Progress is what you bring with you. At Audi we want to offer you the freedom to use and develop this progress. With flexible working hours. With an in-house further education academy. With projects which combine 100 years of experience in premium mobility with an electrified future. For a world that we keep on the move together – with you. Progress is what you bring with you. At Audi we want to offer you the freedom to use and develop this progress. With flexible working hours. With an in-house further education academy. With projects which combine 100 years of experience in premium mobility with an electrified future. For a world that we keep on the move together – with you.</p>
+    </div>
 
-.header {
-    width: 100%;
-    background-color: #FFFFFF;
-    min-height: 56px;
-    max-height: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-   }
-   
-   .header_logo {
-      width: 119.93px;
-      height: 36.52px;
-      margin-left: 18.07px;
-      margin-top: 8.24px;
-      margin-bottom: 11.25px;
-   }
+        <div class="body_block">
+            <img class="body_image" src="../image_container.png" />
+            <p class="body_text">Progress is what you bring with you. At Audi we want to offer you the freedom to use and develop this progress. With flexible working hours. With an in-house further education academy. With projects which combine 100 years of experience in premium mobility with an electrified future. For a world that we keep on the move together – with you. Progress is what you bring with you. At Audi we want to offer you the freedom to use and develop this progress. With flexible working hours. </p>
 
-   .header_menu {
-       display: flex;
-       flex-direction: row;
-       justify-content: space-between;
-       width: 281px;
-       padding-top: 10px;
-       padding-bottom: 10px;
-       padding-right: 10px;
-       z-index:2;
-   }
+            <div class="video_section">
+                <img class="video_section_image" src="../Rectangle.png" />
+                <img class="video_section_button" src="../Play_button.png" />
+                <p class="video_name"> Video optional text container</p>
+            </div>
 
-   .header_button_registration {
-       width: 110px;
-       height: 36px;
-       background-color: #F7F7F7;
-       border: none;
-   }
+            <div class="quote">
+                <p class="quote_text">There is always something good to say. What is this? We don't know. There is always something good to say. What is this? We don't know.</p>
+                <p class="quote_author">William Shekspeare</p>
+            </div>
 
-   .header_button_enter {
-    width: 74px;
-    height: 36px;
-    background-color: #DD1D21;
-    border: none;
-   }
+            <img class="body_image" src="../Rectangle_bigfoto.png" />
+            <p class="body_text">Progress is what you bring with you. At Audi we want to offer you the freedom to use and develop this progress. With flexible working hours. With an in-house further education academy. With projects which combine 100 years of experience in premium mobility with an electrified future. For a world that we keep on the move together – with you. Progress is what you bring with you. At Audi we want to offer you the freedom to use and develop this progress. With flexible working hours.</p>
 
-   .header_button_menu {
-       width: 30px;
-       height: 36px;
-       border: none;
-       position: relative;
-   }
-   
-   .menu_links{
-       display:none;
-   }
-   
-   .header_button_menu:hover .menu_links {
-       display: flex;
-       flex-direction: column;
-       position: absolute;
-       list-style: none;
-   }
-   
 
-.heading_section {
-    background-color: #F7F7F7;
-    width: 100%;
-    height: 574px;
-    margin-left: 0px;
-    position: relative;
-}
+            <div class="paragraph_template">
+                <img class="paragraph_template_image" src="../template_container.png" />
+                <div class="paragraph_template_text"> 
+                <h3>The Title</h3>
+                <p>Progress is what you bring with you. At Audi we want to offer you the freedom to use and develop this progress. With flexible working hours. With an in-house further education academy. With projects which combine 100 years of experience in premium mobility with an electrified future. For a world that we keep on the move together – with you. Progress is what you bring with you. At Audi we want to offer you the freedom to use and develop this progress. With flexible working hours.</p>
+                </div>
+             </div>   
+             <div class="paragraph_template">
+                <div class="paragraph_template_text">
+                <h3>The Title</h3>
+                <p>Progress is what you bring with you. At Audi we want to offer you the freedom to use and develop this progress. With flexible working hours. With an in-house further education academy. With projects which combine 100 years of experience in premium mobility with an electrified future. For a world that we keep on the move together – with you. Progress is what you bring with you. At Audi we want to offer you the freedom to use and develop this progress. With flexible working hours. </p>
+                </div>
+                <img class="paragraph_template_image" src="../template_container-2.png" />
 
-.heading_photo {
-    position: absolute;
-    width: 100%;
-    height: 538px;
-    padding-bottom: 36px;
-}
+            </div>
+         <div class="bullet_list_container">
+            <h3>Bullet list text container:</h3>
+            <ul>
+            <li>Caption text container</li>
+            <li>Caption text container</li>
+            <li>Caption text container</li>
+            <li>Caption text container</li>
+            <li>Caption text container</li>
+        </ul>
+        </div>
 
-.heading_title {
-    position: absolute;
-    margin-top: 286px;
-    margin-left: 255px;
-    margin-right: 673px;
-    margin-bottom: 229px;
-    color: white;
-    font-weight: bold;
-}
+        <div class="ordered_list_container">
+            <h3>Numered text container:</h3>
+        <ol>
+            <li>Caption text container</li>
+            <li>Caption text container</li>
+            <li>Caption text container</li>
+            <li>Caption text container</li>
+            <li>Caption text container</li>
+        </ol>
+        </div>
 
-.heading_text {
-    position: absolute;
-    margin-top: 375px;
-    margin-left: 255px;
-    margin-right: 499px;
-    margin-bottom: 162px;
-    color: white;
-    font-weight: normal;
-}
+        <div class="external_links_section">
+            <p class="link_description"> External link text desription </p>
+       
+            <p class="link_description"> External link text desription </p>
+        </div>
 
-.heading_date{
-    position: absolute;
-    margin-left: 255px;
-    margin-top: 432px;
-    margin-right: 725px;
-    margin-bottom: 120px;
-    color:white;
-    font-weight: lighter;
-}
+        </div>
+    </main>
+    <footer class="footer">
 
-.preview_section {
-    width: 990px;
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-bottom: 60px;
-}
+        <div class="footer_logo_section">
+     
+        <div class="header_logo">
+            <img rel="logo" src="../Shell_logo.png"/>
+        </div>
 
-.preview_head {
-    line-height: 24px;
-}
+        <div class="footer_link">
+            <a href="../rights.html">SHELL всі права захищено</a>
+        </div>
 
-.preview_text {
-    margin-top: 15px;
-}
+    </div>
 
-.body_block {
-    background-color: #FFFFFF;
-    width: 990px;
-    margin-left: 15%;
-}
+    <div class="footer_link_section">
 
-.body_image {
-    width: 100%;
-    height: 470px;
-}
+        <div class="footer_link">
+            <a href="../rules.html">Договір публічної оферти</a>
+        </div>
 
-.body_text{
-    margin-top: 60px;
-    margin-left: 15%;
-    margin-right: 15%;
-}
+        <div class="footer_link">
+            <a href="../rules.html">Положення і умови</a>
+        </div>
 
-.video_section {
-    position: relative;
-}
+        <div class="footer_link">
+            <a href="../rules.html">Сповіщення про конфіденційність</a>
+        </div>
+    </div>
 
-.video_section_image {
-    position: relative;
-    width: 690px;
-    height: 388px;
-    margin-top: 60px;
-    margin-left: 150px;
-    margin-right: 150px;
-}
 
-.video_section_button {
-    position: absolute;
-    width: 90px;
-    height: 90px;
-    left: 43.5%;
-    top: 38.4%;
 
-}
+    </footer>
 
-.video_name{
-    font-style: italic;
-    margin-top: 20px;
-    margin-left: 30%;
-    margin-right: 27%;
-}
-
-.quote {
-    margin-top: 60px;
-    width: 70%;
-    margin-left: 15%;
-    margin-right: 15%;
-    border: 2px solid #DD1D21;
-    padding-top: 50px;
-    padding-bottom: 40px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-bottom: 60px;
-
-}
-
-.quote_text {
-    color:#DD1D21;
-    font-size: 24px;
-    line-height: 44px;
-    font-weight: normal;
-}
-
-.quote_author {
-    color: #404040;
-    font-family: 'Futura PT';
-    font-size: 16px;
-    line-height: 24px;
-    margin-top: 30px;
-}
-
-.paragraph_template {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    width: 990;
-    margin-top: 82px;
-    column-gap: 30px;
-    margin-left: 30px;
-    margin-right: 30px;
-}
-
-.paragraph_template_image {
-    width: 450px;
-    max-height: 260px;
-}
-
-.paragraph_template_text {
-    width: 450px;
-}
-
-.bullet_list_container {
-    margin-left: 150px;
-    line-height: 24px;
-    margin-top: 60px;
-}
-
-.ordered_list_container {
-    margin-left: 150px;
-    line-height: 24px;
-    margin-top: 60px;
-}
-
-.external_links_section {
-    margin-top: 60px;
-    display: flex;
-    flex-direction: row;
-    gap: 30px;
-    background-color: white;
-}
-
-.link_description {
-    margin-left: 30px;
-    margin-right: 30px;
-    height: 110px;
-    width: 450px;
-    background-color: #D9D9D9;
-}
-
-.footer {
-    width: 100%;
-    background-color: #FFFFFF;
-    min-height: 56px;
-    max-height: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.footer_logo_section {
-    width:30%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.footer_link_section {
-    width: 40%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.footer_link {
-    color: black;
-}
+    </body>
+</html>
